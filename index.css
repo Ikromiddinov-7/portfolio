@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Philosopher;
+}
+
+header {
+  background-image: url(./home-banner.png.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header nav {
+  position: fixed;
+}
+header nav .blok {
+  border: 1px solid rgba(13, 2, 2, 0.234);
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 1520px;
+}
+header nav .blok .div {
+  margin-left: 70px;
+}
+header nav .blok h1 {
+  font-size: 30px;
+  color: blue;
+}
+header nav .blok .div2 {
+  margin-right: 100px;
+}
+header nav .blok a {
+  margin-left: 40px;
+  text-decoration: none;
+}
+header .blok2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 100px 0px;
+}
+header .blok2 .blok {
+  padding: 200px 0px 0px 180px;
+}
+header .blok2 .blok button {
+  margin-top: 40px;
+  height: 50px;
+  width: 150px;
+  border-radius: 6px;
+  background-color: rgb(53, 53, 148);
+  color: #fff;
+}
+header .blok2 .blok .old {
+  border: 2px solid blue;
+  margin-left: 20px;
+  background-color: #fff;
+  color: black;
+}
+header .second {
+  height: 700px;
+  display: flex;
+  margin-top: 400px;
+}
+header .second .second2 {
+  height: 580px;
+  width: 580px;
+}
+header .second .second2 img {
+  height: 580px;
+  width: 580px;
+}
+header .second .second3 {
+  height: 580px;
+  width: 800px;
+  font-size: 30px;
+  margin-top: 130px;
+  margin-left: 200px;
+}
+header .second .second3 p {
+  font-size: 17px;
+}
+header .second .second3 button {
+  height: 48px;
+  width: 180px;
+  border-radius: 6px;
+  background-color: rgb(59, 59, 211);
+  color: #fff;
+  margin-top: 45px;
+  font-size: 14px;
+}
+
+main {
+  height: 350vh;
+}
+main .bosh {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  margin-top: 150px;
+  height: 170vh;
+}
+main .bosh .second {
+  margin-left: 100px;
+}
+main .bosh .second2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  height: 120px;
+}
+main .bosh .second2 h1 {
+  margin-left: 140px;
+  color: rgb(87, 87, 240);
+  font-size: 120px;
+  margin-top: -40px;
+}
+main .bosh .second2 .second22 {
+  height: 300px;
+  width: 300px;
+  font-size: 30px;
+}
+main .bosh .second2 .second22 p {
+  font-size: 18px;
+  margin-top: 100px;
+  margin-left: -150px;
+  color: rgb(61, 61, 228);
+}
+main .bosh .second2 .second22 h4 {
+  margin-left: -152px;
+}
+main .servis {
+  font-size: 20px;
+  height: 200px;
+  margin-left: 450px;
+  margin-top: 250px;
+}
+main .servis h1 {
+  margin-left: 130px;
+}
+main .bok {
+  margin-left: 70px;
+}
+main .alo {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  grid-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+main .alo .oka {
+  height: 320px;
+  width: 250px;
+  background-color: rgba(147, 233, 255, 0.1176470588);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+main .alo .oka img {
+  margin-left: 35%;
+  margin-top: 20%;
+}
+main .alo .oka:hover {
+  box-shadow: 0.2px 3px 22px aqua;
+  transition: 0.7s;
+  background-color: #fff;
+}
+main .alo .oka h2 {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+main .alo .oka p {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+main .alo .uka {
+  height: 320px;
+  width: 250px;
+  background-color: rgba(147, 233, 255, 0.1176470588);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+main .alo .uka img {
+  margin-left: 35%;
+  margin-top: 20%;
+}
+main .alo .uka:hover {
+  box-shadow: 0.2px 3px 22px aqua;
+  transition: 0.7s;
+  background-color: #fff;
+}
+main .alo .uka h2 {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+main .alo .uka p {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+main .alo .opa {
+  height: 320px;
+  width: 250px;
+  background-color: rgba(147, 233, 255, 0.1176470588);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+main .alo .opa img {
+  margin-left: 35%;
+  margin-top: 20%;
+}
+main .alo .opa:hover {
+  box-shadow: 0.2px 3px 22px aqua;
+  transition: 0.7s;
+  background-color: #fff;
+}
+main .alo .opa h2 {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+main .alo .opa p {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+main .alo .ona {
+  height: 320px;
+  width: 250px;
+  background-color: rgba(147, 233, 255, 0.1176470588);
+  transition: 0.4s;
+  border-radius: 5px;
+}
+main .alo .ona:hover {
+  box-shadow: 0.2px 3px 22px aqua;
+  transition: 0.7s;
+  background-color: #fff;
+}
+main .alo .ona img {
+  margin-left: 35%;
+  margin-top: 20%;
+}
+main .alo .ona h2 {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+main .alo .ona p {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+main .nok {
+  background-color: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(148, 187, 233, 0.4094887955) 100%);
+  height: 100px;
+}
+main .nok h1 {
+  padding: 0px 0px 0px 200px;
+  font-weight: bold;
+}
+main .nok2 {
+  padding: 10vh 0vh 0vh 25vh;
+}
+main .nok2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 0vh 0vh 0vh 3vh;
+}
+
+footer .google {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+footer .google .new1 {
+  height: 40vh;
+  width: 40vh;
+  background-color: red;
+}
+footer .google .new2 {
+  height: 70vh;
+  width: 20vh;
+  background-color: blue;
+}
+footer .google .new3 {
+  height: 50vh;
+  width: 20vh;
+  background-color: black;
+  padding: 0vh 0vh 0vh 9vh;
+}/*# sourceMappingURL=index.css.map */
